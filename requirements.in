@@ -1,0 +1,14 @@
+dask
+ipywidgets
+jupyterlab
+pandas
+pandas-profiling
+plotly
+poliastro
+rasterio
+requests
+rise
+seaborn
+sympy
+scikit-learn
+xarray
