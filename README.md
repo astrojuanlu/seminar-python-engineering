@@ -2,6 +2,8 @@
 
 Author: Juan Luis Cano Rodríguez
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astrojuanlu/seminar-python-engineering/master)
+
 ## Abstract
 
 Nowadays, a big part of engineers everyday work is supported by highly sophisticated
