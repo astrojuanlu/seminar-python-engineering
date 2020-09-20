@@ -17,7 +17,7 @@ certifi==2020.6.20        # via matplotlib, requests
 cffi==1.14.2              # via argon2-cffi, cryptography
 chardet==3.0.4            # via requests
 click-plugins==1.1.1      # via rasterio
-click==7.1.2              # via click-plugins, cligj, rasterio
+click==7.1.2              # via click-plugins, cligj, geomet, rasterio, sentinelsat
 cligj==0.5.0              # via rasterio
 confuse==1.3.0            # via pandas-profiling
 cryptography==3.1         # via secretstorage
@@ -26,6 +26,9 @@ dask==2.26.0              # via -r requirements.in
 decorator==4.4.2          # via ipython, networkx
 defusedxml==0.6.0         # via nbconvert
 entrypoints==0.3          # via nbconvert
+geojson==2.5.0            # via sentinelsat
+geomet==0.2.1.post1       # via sentinelsat
+html2text==2020.1.16      # via sentinelsat
 html5lib==1.1             # via astroquery
 htmlmin==0.1.12           # via pandas-profiling
 idna==2.10                # via requests
@@ -86,7 +89,7 @@ pywavelets==1.1.1         # via imagehash
 pyyaml==5.3.1             # via confuse, dask
 pyzmq==19.0.2             # via jupyter-client, notebook
 rasterio==1.1.6           # via -r requirements.in
-requests==2.24.0          # via -r requirements.in, astroquery, jupyterlab-server, pandas-profiling
+requests==2.24.0          # via -r requirements.in, astroquery, jupyterlab-server, pandas-profiling, sentinelsat
 retrying==1.3.3           # via plotly
 rise==5.6.1               # via -r requirements.in
 scikit-learn==0.23.2      # via -r requirements.in
@@ -94,7 +97,8 @@ scipy==1.5.2              # via imagehash, missingno, pandas-profiling, phik, po
 seaborn==0.11.0           # via -r requirements.in, missingno, pandas-profiling
 secretstorage==3.1.2      # via keyring
 send2trash==1.5.0         # via notebook
-six==1.15.0               # via argon2-cffi, astroquery, bleach, cryptography, cycler, html5lib, imagehash, jsonschema, packaging, plotly, python-dateutil, retrying
+sentinelsat==0.14         # via -r requirements.in
+six==1.15.0               # via argon2-cffi, astroquery, bleach, cryptography, cycler, geomet, html5lib, imagehash, jsonschema, packaging, plotly, python-dateutil, retrying, sentinelsat
 snuggs==1.4.7             # via rasterio
 soupsieve==2.0.1          # via beautifulsoup4
 sympy==1.6.2              # via -r requirements.in
@@ -103,7 +107,7 @@ terminado==0.8.3          # via notebook
 testpath==0.4.4           # via nbconvert
 threadpoolctl==2.1.0      # via scikit-learn
 tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
-tqdm==4.49.0              # via pandas-profiling
+tqdm==4.49.0              # via pandas-profiling, sentinelsat
 traitlets==5.0.4          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
 urllib3==1.25.10          # via requests
 visions[type_image_path]==0.5.0  # via pandas-profiling

@@ -9,6 +9,7 @@ rasterio
 requests
 rise
 seaborn
+sentinelsat
 sympy
 scikit-learn
 xarray
