@@ -13,6 +13,7 @@ attrs==20.2.0             # via jsonschema, pandas-profiling, rasterio, visions
 backcall==0.2.0           # via ipython
 beautifulsoup4==4.9.1     # via astroquery
 bleach==3.2.0             # via nbconvert
+branca==0.4.1             # via ipyleaflet
 certifi==2020.6.20        # via matplotlib, requests
 cffi==1.14.2              # via argon2-cffi, cryptography
 chardet==3.0.4            # via requests
@@ -34,12 +35,13 @@ htmlmin==0.1.12           # via pandas-profiling
 idna==2.10                # via requests
 imagehash==4.1.0          # via visions
 ipykernel==5.3.4          # via ipywidgets, notebook
+ipyleaflet==0.13.3        # via -r requirements.in
 ipython-genutils==0.2.0   # via nbformat, notebook, traitlets
 ipython==7.18.1           # via ipykernel, ipywidgets
-ipywidgets==7.5.1         # via -r requirements.in, pandas-profiling
+ipywidgets==7.5.1         # via -r requirements.in, ipyleaflet, pandas-profiling
 jedi==0.17.2              # via ipython
 jeepney==0.4.3            # via keyring, secretstorage
-jinja2==2.11.2            # via jupyterlab, jupyterlab-server, nbconvert, notebook, pandas-profiling
+jinja2==2.11.2            # via branca, jupyterlab, jupyterlab-server, nbconvert, notebook, pandas-profiling
 joblib==0.16.0            # via pandas-profiling, phik, scikit-learn
 jplephem==2.15            # via poliastro
 json5==0.9.5              # via jupyterlab-server
@@ -60,9 +62,10 @@ mpmath==1.1.0             # via sympy
 nbclient==0.5.0           # via nbconvert
 nbconvert==6.0.3          # via notebook
 nbformat==5.0.7           # via ipywidgets, nbclient, nbconvert, notebook
+nbresuse==0.3.6           # via -r requirements.in
 nest-asyncio==1.4.0       # via nbclient
 networkx==2.5             # via visions
-notebook==6.1.4           # via jupyterlab, jupyterlab-server, rise, widgetsnbextension
+notebook==6.1.4           # via jupyterlab, jupyterlab-server, nbresuse, rise, widgetsnbextension
 numba==0.51.2             # via phik, poliastro
 numpy==1.19.2             # via astropy, astroquery, imagehash, jplephem, matplotlib, missingno, numba, pandas, pandas-profiling, phik, poliastro, pywavelets, rasterio, scikit-learn, scipy, seaborn, snuggs, visions, xarray
 packaging==20.4           # via bleach
@@ -76,12 +79,14 @@ pickleshare==0.7.5        # via ipython
 pillow==7.2.0             # via imagehash, matplotlib, visions
 plotly==4.10.0            # via -r requirements.in, poliastro
 poliastro==0.14.0         # via -r requirements.in
-prometheus-client==0.8.0  # via notebook
+prometheus-client==0.8.0  # via nbresuse, notebook
 prompt-toolkit==3.0.7     # via ipython
+psutil==5.7.2             # via nbresuse
 ptyprocess==0.6.0         # via pexpect, terminado
 pycparser==2.20           # via cffi
 pygments==2.7.0           # via ipython, jupyterlab-pygments, nbconvert
 pyparsing==2.4.7          # via matplotlib, packaging, snuggs
+pyproj==2.6.1.post1       # via -r requirements.in
 pyrsistent==0.17.3        # via jsonschema
 python-dateutil==2.8.1    # via jupyter-client, matplotlib, pandas
 pytz==2020.1              # via pandas
@@ -98,6 +103,7 @@ seaborn==0.11.0           # via -r requirements.in, missingno, pandas-profiling
 secretstorage==3.1.2      # via keyring
 send2trash==1.5.0         # via notebook
 sentinelsat==0.14         # via -r requirements.in
+shapely==1.7.1            # via -r requirements.in
 six==1.15.0               # via argon2-cffi, astroquery, bleach, cryptography, cycler, geomet, html5lib, imagehash, jsonschema, packaging, plotly, python-dateutil, retrying, sentinelsat
 snuggs==1.4.7             # via rasterio
 soupsieve==2.0.1          # via beautifulsoup4
@@ -108,7 +114,8 @@ testpath==0.4.4           # via nbconvert
 threadpoolctl==2.1.0      # via scikit-learn
 tornado==6.0.4            # via ipykernel, jupyter-client, jupyterlab, notebook, terminado
 tqdm==4.49.0              # via pandas-profiling, sentinelsat
-traitlets==5.0.4          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook
+traitlets==5.0.4          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbclient, nbconvert, nbformat, notebook, traittypes
+traittypes==0.2.1         # via ipyleaflet
 urllib3==1.25.10          # via requests
 visions[type_image_path]==0.5.0  # via pandas-profiling
 wcwidth==0.2.5            # via prompt-toolkit
