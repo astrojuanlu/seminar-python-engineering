@@ -2,7 +2,7 @@
 
 Author: Juan Luis Cano Rodríguez
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astrojuanlu/seminar-python-engineering/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astrojuanlu/seminar-python-engineering/main)
 
 ## Abstract
 
