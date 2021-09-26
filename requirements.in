@@ -9,7 +9,7 @@ jupyterlab
 mypy
 nbresuse
 pandas
-pandas-profiling
+# pandas-profiling  # https://github.com/pandas-profiling/pandas-profiling/issues/809
 plotly
 poliastro
 pyproj
@@ -17,9 +17,9 @@ pytest
 rasterio
 requests
 rise
+scikit-learn
 seaborn
 sentinelsat
 shapely
 sympy
-scikit-learn
 xarray
