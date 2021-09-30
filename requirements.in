@@ -3,9 +3,10 @@ dask
 flake8
 flask
 flit
-ipyleaflet
 ipywidgets
 jupyterlab
+jupyterlab-geojson
+matplotlib<3.4  # https://github.com/sympy/sympy/issues/21739
 mypy
 nbresuse
 pandas

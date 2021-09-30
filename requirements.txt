@@ -114,8 +114,6 @@ ipykernel==6.4.1
     # via
     #   ipywidgets
     #   notebook
-ipyleaflet==0.14.0
-    # via -r requirements.in
 ipython==7.28.0
     # via
     #   ipykernel
@@ -129,9 +127,7 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
 ipywidgets==7.6.5
-    # via
-    #   -r requirements.in
-    #   ipyleaflet
+    # via -r requirements.in
 itsdangerous==2.0.1
     # via flask
 jedi==0.18.0
@@ -182,6 +178,10 @@ jupyter-server==1.11.0
     #   jupyterlab-server
     #   nbclassic
 jupyterlab==3.1.13
+    # via
+    #   -r requirements.in
+    #   jupyterlab-geojson
+jupyterlab-geojson==3.1.2
     # via -r requirements.in
 jupyterlab-pygments==0.1.2
     # via nbconvert
@@ -201,8 +201,9 @@ markupsafe==2.0.1
     # via
     #   jinja2
     #   pandas-profiling
-matplotlib==3.4.3
+matplotlib==3.3.4
     # via
+    #   -r requirements.in
     #   missingno
     #   pandas-profiling
     #   phik
@@ -511,9 +512,6 @@ traitlets==5.1.0
     #   nbconvert
     #   nbformat
     #   notebook
-    #   traittypes
-traittypes==0.2.1
-    # via ipyleaflet
 typing-extensions==3.10.0.2
     # via
     #   black
