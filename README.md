@@ -4,6 +4,8 @@ Author: Juan Luis Cano Rodríguez
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astrojuanlu/seminar-python-engineering/main)
 
+[Slides](https://nbviewer.jupyter.org/format/slides/github/astrojuanlu/seminar-python-engineering/blob/main/Session%201%20-%20Use%20of%20Python.ipynb)
+
 ## Abstract
 
 Nowadays, a big part of engineers everyday work is supported by highly sophisticated
