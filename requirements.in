@@ -9,7 +9,7 @@ jupyterlab
 mypy
 nbresuse
 pandas
-# pandas-profiling  # https://github.com/pandas-profiling/pandas-profiling/issues/809
+pandas-profiling
 plotly
 poliastro
 pyproj
